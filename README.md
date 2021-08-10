@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://citronlime.github.io/order-summary-component-main/](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://citronlime.github.io/order-summary-component-main/)
+
 
 ## My process
 1. I started with setting up the project locally, for this project I used WebStorm from Jetbrains
