@@ -1,0 +1,140 @@
+
+*{
+   box-sizing: border-box;
+    padding:0;
+    border:0;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1rem;
+    margin:0;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("/images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    color:hsl(224, 23%, 55%);
+    line-height: 1.7;
+    text-align:center;
+    padding-top:0em;
+
+}
+img{
+    max-width:100%;
+}
+.hero img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/*========================
+        TYPOGRAPHY
+ =========================*/
+h1, h2{
+    color: hsl(223, 47%, 23%);
+}
+h1{
+    font-size:1.5rem;
+    margin-bottom:0;
+}
+h1 + p {
+    margin:0.5em 0 0 0;
+
+}
+h2, h2 + p {
+    margin:0;
+}
+h2{
+    font-size:1rem;
+}
+
+a {
+    padding-top: 1em;
+    color:hsl(245, 75%, 52%);
+
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+/*========================
+        LAYOUT
+============================*/
+
+/*  - Mobile: 375px
+- Desktop: 1440px */
+.container{
+    width:90%;
+    max-width:450px;
+    margin:0 auto;
+    background: #fff;
+    border-radius:15px;
+    box-shadow: 0px 10px 5px hsl(225, 100%, 92%);
+
+
+}
+.price-container, .buttons-container, main{
+    display:flex;
+    flex-direction: column;
+}
+main{
+    max-width:80%;
+    margin:0 auto;
+}
+
+.article-container{
+    background:hsl(225, 100%, 98%);
+    border-radius:15px;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 1.5em;
+    padding:1em 0.4em;
+}
+
+.price-container{
+    min-width:45%;
+    align-items: flex-start;
+}
+
+/* ===============
+        BUTTONS
+=======================*/
+.btn{
+    border-radius:10px;
+    font-weight:700;
+    padding:1em 1.5em;
+    margin-top:1em;
+    background: none;
+    color:hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+.btn:hover, .btn:focus{
+    color: hsl(223, 47%, 23%);
+}
+.btn:last-child{
+    margin-bottom: 1em;
+}
+.btn-primary{
+    background:hsl(245, 75%, 52%);
+    color:#fff;
+}
+.btn-primary:focus, .btn-primary:hover{
+    background: hsl(224, 23%, 55%);
+}
+@media (min-width:675px){
+    body{
+        padding-top:2em;
+        background-image: url("/images/pattern-background-desktop.svg");
+    }
+    .article-container{
+        margin-top:1em;
+    }
+}
+
+/* FRONT END MENTOR STYLES */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top:10px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
